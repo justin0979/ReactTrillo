@@ -1,0 +1,64 @@
+/*
+COLORS
+
+Primary: #eb2f64
+Primary light: #ff3366
+Primary dark: #ba265d
+
+Grey light 1: #faf9f9
+Grey light 2: #f4f2f2
+Grey light 3: #f0eeee
+Grey light 4: #ccc
+
+Grey dark 1: #333
+Grey dark 2: #777
+Grey dark 3: #999
+*/
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.app {
+  height: 100vh;
+  line-height: 2;
+  color: #cccbbb;
+  background-image: linear-gradient(to left, #222, #888);
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.item {
+  background-color: #f1425a;
+  padding: 3rem;
+  margin: 3rem;
+  color: white;
+  font-size: 4rem;
+
+  // flex: 1; === flex-grow: 1;
+  //  flex-grow: 1;
+}
+
+.i2 {
+  height: 20rem;
+  flex-basis: 20%;
+}
+
+.i3 {
+  flex: 1;
+}
